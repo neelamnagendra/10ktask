@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssdayforms</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<style>
+h1{text-align: center;}
+h1{color: hotpink;}
+.firstname,.fname,.secondname,.sname{
+    color:green;
+}
+#mobile,#tel{
+    color: blueviolet;
+}
+label,input{
+    color: darkmagenta;
+}
+form{text-align: center;}
+.center{
+    margin: auto;
+    width: 75%;
+    border: 3px dotted black ;
+    padding: 20px;
+    border:200%;
+}
+h2{color: blue;}
+#h3{color: chartreuse;}
+</style>
+<form class="center">
+    <label class="firstname" for="fname" >First name:</label>
+    <input class="fname" type="fname" name="fname" id="fname" placeholder="enter your first name"><br><br>
+    <label class="secondname" for="sname">Second name:</label>
+    <input class="sname" type="sname" name="sname" placeholder="enter your second name"><br><br>
+    <label id="mobile" for="mobile">Mobile:</label>
+    <input id="tel" type="tel" name="number" id="number" placeholder="enter your mobile number" maxlength="10"><br><br> 
+    <label for="email">Mail:</label>
+    <input type="email" name="email" placeholder="enter your email" required><br><br>
+    <input type="submit">
+</form>
+<ol type="I">
+    <h2 class="h2">Frontend</h2>
+    <li style="color: crimson;">Html</li>
+    <li style="color: crimson;">Css</li>
+    <li style="color: crimson;">JavaScript</li>
+    <li style="color: crimson;">Bootstarp</li>
+</ol>
+<ul style="list-style-type:circle ;">
+    <h3 id="h3">Back End</h3>
+    <li style="color: darkviolet;">Python</li>
+    <li style="color: darkviolet;">Java</li>
+    <li style="color: darkviolet;">Php</li>
+    <li style="color: darkviolet;">Node.js</li>
+</ul>
+</body>
+</html>
